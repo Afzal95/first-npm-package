@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose npm-session 167076c04a3fe931
+5 verbose publish [ '.' ]
+6 info lifecycle log-package@1.0.0~prepublish: log-package@1.0.0
+7 info lifecycle log-package@1.0.0~prepare: log-package@1.0.0
+8 info lifecycle log-package@1.0.0~prepublishOnly: log-package@1.0.0
+9 info lifecycle log-package@1.0.0~prepack: log-package@1.0.0
+10 info lifecycle log-package@1.0.0~postpack: log-package@1.0.0
+11 notice
+12 notice package: log-package@1.0.0
+13 notice === Tarball Contents ===
+14 notice 68B  index.js
+14 notice 543B package.json
+14 notice 145B README.md
+15 notice === Tarball Details ===
+16 notice name:          log-package
+16 notice version:       1.0.0
+16 notice package size:  577 B
+16 notice unpacked size: 756 B
+16 notice shasum:        7bf5d0d9263a72fae917c1a75d74ecfc6349421d
+16 notice integrity:     sha512-RnLPQkyQh7xNf[...]1cntjci8ns8Ag==
+16 notice total files:   3
+17 notice
+18 http fetch PUT 403 https://registry.npmjs.org/log-package 1675ms
+19 verbose stack Error: 403 Forbidden - PUT https://registry.npmjs.org/log-package - Package name too similar to existing packages; try renaming your package to '@afzal95/log-package' and publishing with 'npm publish --access=public' instead
+19 verbose stack     at C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:114:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+20 verbose statusCode 403
+21 verbose pkgid log-package@1.0.0
+22 verbose cwd C:\Users\Afzal\Desktop\log-package\package
+23 verbose Windows_NT 6.1.7601
+24 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+25 verbose node v12.18.4
+26 verbose npm  v6.14.6
+27 error code E403
+28 error 403 403 Forbidden - PUT https://registry.npmjs.org/log-package - Package name too similar to existing packages; try renaming your package to '@afzal95/log-package' and publishing with 'npm publish --access=public' instead
+29 error 403 In most cases, you or one of your dependencies are requesting
+29 error 403 a package version that is forbidden by your security policy.
+30 verbose exit [ 1, true ]
