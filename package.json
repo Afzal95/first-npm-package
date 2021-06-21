@@ -1,8 +1,9 @@
 {
-  "name": "simple-log",
-  "version": "1.0.0",
+  "name": "console-l",
+  "version": "1.0.1",
   "description": "dont write console.log(), instead use just 'l'",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

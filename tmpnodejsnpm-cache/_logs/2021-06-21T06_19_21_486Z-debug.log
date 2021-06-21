@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose npm-session 061b6a5a5813eeb3
+5 verbose publish [ '.' ]
+6 info lifecycle simple-log@1.0.0~prepublish: simple-log@1.0.0
+7 info lifecycle simple-log@1.0.0~prepare: simple-log@1.0.0
+8 info lifecycle simple-log@1.0.0~prepublishOnly: simple-log@1.0.0
+9 info lifecycle simple-log@1.0.0~prepack: simple-log@1.0.0
+10 info lifecycle simple-log@1.0.0~postpack: simple-log@1.0.0
+11 notice
+12 notice package: simple-log@1.0.0
+13 notice === Tarball Contents ===
+14 notice 180B  tmpnodejsnpm-cache/_cacache/index-v5/aa/60/314212ab5c991854366d06bd9a3625efe115b7920072fb17b5fdda635974
+14 notice 159B  tmpnodejsnpm-cache/_cacache/index-v5/33/57/3805ef6429523dc87949dac6903827a6dd69bb22233a9ef0d7414fb3d5e0
+14 notice 160B  tmpnodejsnpm-cache/_cacache/index-v5/30/93/70873148f5f0889d8f8abe7a1b0ee038d11219d172bd5ff953d8342c77ce
+14 notice 159B  tmpnodejsnpm-cache/_cacache/index-v5/42/e8/733f84666bf8ae51438746731476ab9b2f309ff6f8ebeda2a8ff3fe11009
+14 notice 68B   index.js
+14 notice 542B  package.json
+14 notice 2.5kB tmpnodejsnpm-cache/_logs/2021-06-21T06_15_01_975Z-debug.log
+14 notice 2.6kB tmpnodejsnpm-cache/_logs/2021-06-21T06_18_38_038Z-debug.log
+14 notice 145B  README.md
+15 notice === Tarball Details ===
+16 notice name:          simple-log
+16 notice version:       1.0.0
+16 notice package size:  2.4 kB
+16 notice unpacked size: 6.5 kB
+16 notice shasum:        ffb35eb1385e0219c4b5d9b04ee283f291b2e987
+16 notice integrity:     sha512-wdMZxqs/6G9Xb[...]n9VeZVCichzEA==
+16 notice total files:   9
+17 notice
+18 http fetch PUT 403 https://registry.npmjs.org/simple-log 2560ms
+19 verbose stack Error: 403 Forbidden - PUT https://registry.npmjs.org/simple-log - You do not have permission to publish "simple-log". Are you logged in as the correct user?
+19 verbose stack     at C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:114:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+20 verbose statusCode 403
+21 verbose pkgid simple-log@1.0.0
+22 verbose cwd C:\Users\Afzal\Desktop\log-package\package
+23 verbose Windows_NT 6.1.7601
+24 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+25 verbose node v12.18.4
+26 verbose npm  v6.14.6
+27 error code E403
+28 error 403 403 Forbidden - PUT https://registry.npmjs.org/simple-log - You do not have permission to publish "simple-log". Are you logged in as the correct user?
+29 error 403 In most cases, you or one of your dependencies are requesting
+29 error 403 a package version that is forbidden by your security policy.
+30 verbose exit [ 1, true ]

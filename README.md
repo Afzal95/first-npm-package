@@ -1,11 +1,11 @@
 # installation
 
-`npm install log-package`
+`npm install console-l`
 
 # usage
 
 ```
-import {l} from "console-log";
+`var l = require("console-log").l `
 
 var name = "user";
 
