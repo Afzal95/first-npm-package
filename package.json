@@ -1,7 +1,7 @@
 {
   "name": "console-l",
-  "version": "1.1.0",
-  "description": "dont write console.log(), instead use just 'l'",
+  "version": "1.0.0",
+  "description": "`npm install console-l`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

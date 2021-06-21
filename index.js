@@ -1,5 +1,5 @@
-function l(s){
+function L(s){
     return console.log(s);
 }
 
-module.exports.l=l;
+module.exports.L=L;
