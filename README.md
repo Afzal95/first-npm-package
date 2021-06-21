@@ -5,14 +5,14 @@
 # usage
 
 ```
-var l = require("console-l").l
+var L = require("console-l").L
 
       OR
 
-var {l} = require("console-l")
+var {L} = require("console-l")
 
 var name = "user";
 
-l(name);  // user
+L(name);  // user
 
 ```
