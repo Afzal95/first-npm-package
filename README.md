@@ -1,18 +1,18 @@
 # installation
 
-`npm install console-l`
+`npm install short-l`
 
 # usage
 
 ```
-var L = require("console-l").L
+var s = require("short-l").s
 
       OR
 
-var {L} = require("console-l")
+var {s} = require("short-l")
 
 var name = "user";
 
-L(name);  // user
+s(name);  // user
 
 ```

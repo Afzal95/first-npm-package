@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose npm-session f65debd7b396dd97
+5 verbose publish [ '.' ]
+6 info lifecycle console-L@1.0.0~prepublish: console-L@1.0.0
+7 info lifecycle console-L@1.0.0~prepare: console-L@1.0.0
+8 info lifecycle console-L@1.0.0~prepublishOnly: console-L@1.0.0
+9 info lifecycle console-L@1.0.0~prepack: console-L@1.0.0
+10 info lifecycle console-L@1.0.0~postpack: console-L@1.0.0
+11 notice
+12 notice package: console-L@1.0.0
+13 notice === Tarball Contents ===
+14 notice 180B  tmpnodejsnpm-cache/_cacache/index-v5/aa/60/314212ab5c991854366d06bd9a3625efe115b7920072fb17b5fdda635974
+14 notice 159B  tmpnodejsnpm-cache/_cacache/index-v5/42/e8/733f84666bf8ae51438746731476ab9b2f309ff6f8ebeda2a8ff3fe11009
+14 notice 158B  tmpnodejsnpm-cache/_cacache/index-v5/d2/98/d47613996180899afe23d93ef9ab54e19fff5e24464180eb63c1883b45d2
+14 notice 68B   index.js
+14 notice 518B  package.json
+14 notice 2.5kB tmpnodejsnpm-cache/_logs/2021-06-21T11_07_55_184Z-debug.log
+14 notice 189B  README.md
+15 notice === Tarball Details ===
+16 notice name:          console-L
+16 notice version:       1.0.0
+16 notice package size:  1.9 kB
+16 notice unpacked size: 3.8 kB
+16 notice shasum:        8b8dddaa698e2a497081f4e1dec6028fffe384aa
+16 notice integrity:     sha512-HYJhkB3KxDJO6[...]VRusjUW1oQAxQ==
+16 notice total files:   7
+17 notice
+18 http fetch PUT 400 https://registry.npmjs.org/console-L 1431ms
+19 verbose stack Error: 400 Bad Request - PUT https://registry.npmjs.org/console-L - "console-L" is invalid for new packages
+19 verbose stack     at C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:114:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+20 verbose statusCode 400
+21 verbose pkgid console-L@1.0.0
+22 verbose cwd C:\Users\Afzal\Desktop\log-package\package
+23 verbose Windows_NT 6.1.7601
+24 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+25 verbose node v12.18.4
+26 verbose npm  v6.14.6
+27 error code E400
+28 error 400 Bad Request - PUT https://registry.npmjs.org/console-L - "console-L" is invalid for new packages
+29 verbose exit [ 1, true ]

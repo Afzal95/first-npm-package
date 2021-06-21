@@ -1,6 +1,6 @@
 {
-  "name": "console-l",
-  "version": "1.0.0",
+  "name": "short-l",
+  "version": "1.0.2",
   "description": "`npm install console-l`",
   "main": "index.js",
   "scripts": {
