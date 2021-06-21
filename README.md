@@ -5,7 +5,11 @@
 # usage
 
 ```
-`var l = require("console-log").l `
+var l = require("console-l").l
+
+      OR
+
+var {l} = require("console-l")
 
 var name = "user";
 
