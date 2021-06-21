@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose npm-session 0e34f12ac92acf21
+5 verbose stack Error: Invalid package.json
+5 verbose stack     at C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\lib\view.js:104:30
+5 verbose stack     at tryCatcher (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+5 verbose stack     at Promise.errorAdapter [as _rejectionHandler0] (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\nodeify.js:35:34)
+5 verbose stack     at Promise._settlePromise (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\promise.js:571:21)
+5 verbose stack     at Promise._settlePromise0 (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\promise.js:619:10)
+5 verbose stack     at Promise._settlePromises (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\promise.js:695:18)
+5 verbose stack     at _drainQueueStep (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\async.js:138:12)
+5 verbose stack     at _drainQueue (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+5 verbose stack     at Async._drainQueues (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5)
+5 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\Afzal\AppData\Roaming\nvm\v12.18.4\node_modules\npm\node_modules\bluebird\js\release\async.js:17:14)
+5 verbose stack     at processImmediate (internal/timers.js:456:21)
+6 verbose cwd C:\Users\Afzal\Desktop\log-package\package
+7 verbose Windows_NT 6.1.7601
+8 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "view"
+9 verbose node v12.18.4
+10 verbose npm  v6.14.6
+11 error Invalid package.json
+12 verbose exit [ 1, true ]
